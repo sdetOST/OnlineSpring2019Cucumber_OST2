@@ -96,4 +96,9 @@ public abstract class BasePage {
         return userMenuName.getText();
     }
 
+    public String getPageTitle(){
+        waitUntilLoaderScreenDisappear();
+        return Driver.getDriver().getTitle();
+    }
+
 }

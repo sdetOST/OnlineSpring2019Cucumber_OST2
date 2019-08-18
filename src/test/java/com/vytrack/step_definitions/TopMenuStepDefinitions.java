@@ -19,5 +19,9 @@ public class TopMenuStepDefinitions {
         Assert.assertEquals(expected, pages.dashboardPage().getUserMenuName());
     }
 
+    @Then("the page title should be {string}")
+    public void the_page_title_should_be(String expected) {
+        Assert.assertEquals(expected, pages.dashboardPage().getPageTitle());
+    }
 
 }
