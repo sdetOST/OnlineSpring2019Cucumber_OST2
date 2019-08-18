@@ -1,5 +1,5 @@
 @VYT-4121
-Feature: Login
+  Feature: Login
   As user I want to login under different roles
 # So hook will take care of this action
 #  Hook will open main page
@@ -29,4 +29,15 @@ Feature: Login
       | password | UserUser123     |
     Then user navigates to "Fleet" and "Vehicles"
     And user verifies that "All Cars" page name is displayed
+
+  @login_1
+  Scenario Outline: login as different user tests
+    Given user logs in as a "<user_type>"
+    And user verifies that "<page name>" page name is displayed
+
+    Examples:
+      | user_type     | page name       |
+      | driver        | Quick Launchpad |
+      | sales manager | Dashboard       |
+      | store manager | Dashboard       |
 
