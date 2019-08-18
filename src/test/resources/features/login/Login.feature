@@ -41,3 +41,19 @@
       | sales manager | Dashboard       |
       | store manager | Dashboard       |
 
+    @login_with_outline_2
+    Scenario Outline: User names test
+      Given user logs in with following credentials
+        | username | <username> |
+        | password | <password> |
+      Then user name should be "<name>"
+
+      Examples: Credentials information
+        | username        | password    | name             |
+        | user187         | UserUser123 | Jerel Vandervort |
+        | user200         | UserUser123 | Lonzo Leuschke   |
+        | storemanager52  | UserUser123 | Roma Medhurst    |
+        | storemanager66  | UserUser123 | Carlos Ernser    |
+        | salesmanager125 | UserUser123 | Cleveland Heller |
+        | salesmanager140 | UserUser123 | Jameson Paucek   |
+
