@@ -8,12 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         plugin = {
-                "json:target/cucumber.json",
+                "json:target/cucumber2.json",
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        tags = {"@negative or @storemanager"},
-        features = {"src/test/resources/features" //to specify where are the features
+        features = {"src/test/resources/features/fleet" //to specify where are the features
         },
         //feature contains scenarios
         //every scenario is like a test
@@ -24,6 +23,6 @@ import org.junit.runner.RunWith;
         dryRun = false
 
 )
-public class CukesRunner{
+public class CukesRunner2 {
 
 }

@@ -8,11 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
         plugin = {
-                "json:target/cucumber.json",
+                "json:target/cucumber1.json",
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        features = {"@target/rerun.txt" //to specify where txt file with failed features
+        features = {"src/test/resources/features/activities" //to specify where are the features
         },
         //feature contains scenarios
         //every scenario is like a test
@@ -23,5 +23,6 @@ import org.junit.runner.RunWith;
         dryRun = false
 
 )
-public class FailedRunner {
+public class CukesRunner1 {
+
 }
