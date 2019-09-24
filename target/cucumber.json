@@ -1,0 +1,113 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1381202993,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on the landing page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_on_the_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4338284321,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup(Scenario)"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Login as a store manager",
+        "description": "",
+        "id": "login;login-as-a-store-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 101927987,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2687376326,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logs in as a store manager",
+            "match": {
+              "location": "LoginStepDefinitions.user_logs_in_as_a_store_manager()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20555272976,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verifies that \"Dashboard\" page name is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dashboard\"",
+                  "offset": 19
+                }
+              ],
+              "location": "LoginStepDefinitions.user_verifies_that_page_name_is_displayed(String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VYT-4121"
+          },
+          {
+            "name": "@storemanager"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  As user I want to login under different roles",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/login/Login.feature",
+    "tags": [
+      {
+        "name": "@VYT-4121",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
