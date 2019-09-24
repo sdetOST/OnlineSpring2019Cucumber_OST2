@@ -69,7 +69,7 @@ public class Driver {
                     driver = new SafariDriver();
                     break;
                  case "remote_chrome":
-                    capabilities = new DesiredCapabilities().chrome();
+                    DesiredCapabilities capabilities = new DesiredCapabilities().chrome();
                     capabilities.setPlatform(Platform.ANY);
                     try {
                         driver = new RemoteWebDriver(new URL("http://54.152.227.253:4444/wd/hub"), capabilities);
