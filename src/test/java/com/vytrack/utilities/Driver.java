@@ -68,11 +68,11 @@ public class Driver {
                     WebDriverManager.getInstance(SafariDriver.class).setup();
                     driver = new SafariDriver();
                     break;
-                case "remotechrome":
-                    DesiredCapabilities capabilities = new DesiredCapabilities().chrome();
-                    capabilities.setPlatform(Platform.WINDOWS);
+                 case "remote_chrome":
+                    capabilities = new DesiredCapabilities().chrome();
+                    capabilities.setPlatform(Platform.ANY);
                     try {
-                        driver = new RemoteWebDriver(new URL("http://3.87.139.247:4444/wd/hub"), capabilities);
+                        driver = new RemoteWebDriver(new URL("http://54.152.227.253:4444/wd/hub"), capabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }
