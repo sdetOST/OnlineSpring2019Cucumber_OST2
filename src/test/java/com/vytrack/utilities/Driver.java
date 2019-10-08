@@ -25,6 +25,7 @@ public class Driver {
 
     public synchronized static WebDriver getDriver(String browser) {
         // String browser ==>  it originally comes from xml file to test base class, from test base it comes here
+
         if (driver == null) {
             // first we check if the value from xml file is null or not
             // if the value from xml file NOT null we use
@@ -73,7 +74,7 @@ public class Driver {
                     desiredCapabilities.setPlatform(Platform.ANY);
                     desiredCapabilities.setBrowserName("chrome");
                     try {
-                        driver = new RemoteWebDriver(new URL("http://54.152.227.253:4444/wd/hub"), desiredCapabilities);
+                        driver = new RemoteWebDriver(new URL("http://192.168.13.94:4444/wd/hub"), desiredCapabilities);
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }
