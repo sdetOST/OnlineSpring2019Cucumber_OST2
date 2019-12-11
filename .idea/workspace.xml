@@ -148,6 +148,7 @@
     <option name="width" value="2048" />
     <option name="height" value="1152" />
   </component>
+  <component name="ProjectId" id="1Uqi4ELmllGqa8GyD8bt8Lgv7VI" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -424,6 +425,12 @@
       <window_info anchor="right" id="Maven" order="6" visible="true" weight="0.32951146" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="4400" y="285" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1576090350929">
+      <screen x="3840" y="13" width="1418" height="759" />
+    </state>
+    <state x="4400" y="285" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1418.759/1920.13.1418.759/3840.13.1418.759@3840.13.1418.759" timestamp="1576090350929" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
