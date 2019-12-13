@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: All Calendar Events
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 27.851 s <<< FAILURE! - in All Calendar Events
+Verify column names(All Calendar Events)  Time elapsed: 27.851 s  <<< FAILURE!
+java.lang.AssertionError: expected:<[TITLE, CALENDAR, START, END, RECURRENT, RECURRENCE, INVITATION STATU]> but was:<[TITLE, CALENDAR, START, END, RECURRENT, RECURRENCE, INVITATION STATUS]>
+
