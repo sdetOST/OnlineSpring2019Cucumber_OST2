@@ -12,7 +12,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
-        features = {"src/test/resources/features/fleet" //to specify where are the features
+        features = {"src/test/resources/features/fleet/Vehicles.feature" //to specify where are the features
         },
         //feature contains scenarios
         //every scenario is like a test

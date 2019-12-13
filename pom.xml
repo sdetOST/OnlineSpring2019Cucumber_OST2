@@ -71,8 +71,9 @@
                 <version>2.22.2</version>
                 <configuration>
                     <parallel>classes</parallel>
-                    <threadCount>4</threadCount>
                     <forkMode>perthread</forkMode>
+                    <threadCount>4</threadCount>
+<!--                    <reuseForks>false</reuseForks>-->
                     <includes>
                         <include>**/CukesRunner*.java</include>
                     </includes>

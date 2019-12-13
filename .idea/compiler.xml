@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="OnlineSpring2019Cucumber" />
+        <module name="OnlineSpring2019Cucumber_OST2" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="OnlineSpring2019Cucumber" target="1.8" />
+      <module name="OnlineSpring2019Cucumber_OST2" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

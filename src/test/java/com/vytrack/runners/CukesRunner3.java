@@ -12,6 +12,7 @@ import org.junit.runner.RunWith;
                 "html:target/default-cucumber-reports",
                 "rerun:target/rerun.txt"
         },
+        tags = {"@storemanager"},
         features = {"src/test/resources/features/login" //to specify where are the features
         },
         //feature contains scenarios
