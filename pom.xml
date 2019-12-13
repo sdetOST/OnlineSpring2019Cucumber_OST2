@@ -76,6 +76,8 @@
 <!--                    <reuseForks>false</reuseForks>-->
                     <includes>
                         <include>**/CukesRunner*.java</include>
+<!--                        <include>**/runners/CukesRunner1.java</include>-->
+<!--                        <include>**/runners/CukesRunner4.java</include>-->
                     </includes>
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
